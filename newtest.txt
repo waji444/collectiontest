@@ -1,0 +1,26 @@
+11.Write a Difference between String, StringBuilder and StringBuffer?(4)
+
+ans: String is immutable whereas StringBuffer and StringBuilder are mutable classes. 
+StringBuffer is thread-safe and synchronized 
+whereas StringBuilder is not. StringBuilder is faster than StringBuffer
+
+12. What is the difference between List and set?(2)
+
+ans: List is a type of ordered collection that maintains the elements in insertion order 
+while Set is a type of unordered collection so elements are not maintained any order.
+ List allows duplicates while Set doesn't allow duplicate elements .
+
+
+13. What is the difference between Array & ArrayList?
+
+ans: Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+ We cannot change length of array once created in Java but ArrayList can be changed.
+ We cannot store primitives in ArrayList, it can only store objects.
+ But array can contain both primitives and objects in Java.
+
+
+14.What is the difference between HAshset and Treeset?
+
+ans: A TreeSet is a set where the elements are sorted.
+ Hashset is a set where the elements are not sorted or ordered.
+ hashset is faster than a TreeSet. 
